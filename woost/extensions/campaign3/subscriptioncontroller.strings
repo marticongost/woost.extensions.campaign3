@@ -1,0 +1,10 @@
+
+[woost.extensions.campaign3.subscribercontroller.SubscriptionController.SubscriptionForm]
+
+    [members]
+
+        [lists]
+        ca: Llistes
+        es: Listas
+        en: Lists
+

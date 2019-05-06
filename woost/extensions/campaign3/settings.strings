@@ -1,0 +1,13 @@
+
+[woost.models.settings]
+
+    [x_campaign3_api_key]
+    ca: Clau d'API
+    es: Clave de API
+    en: API key
+
+    [x_campaign3_client_id]
+    ca: ID de client
+    es: ID de cliente
+    en: Client ID
+

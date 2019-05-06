@@ -1,0 +1,9 @@
+
+[woost.extensions.campaign3.admin.sections]
+
+    [Campaign3Section.instance(instance, **kwargs)]
+    *: Campaign Monitor
+
+    [Campaign3Settings.instance(instance, **kwargs)]
+    *: Configuració
+

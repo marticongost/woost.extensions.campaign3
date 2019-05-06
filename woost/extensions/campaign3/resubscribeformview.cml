@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<form
+    xmlns="http://www.w3.org/1999/xhtml"
+    xmlns:py="http://www.whads.com/ns/cocktail/templates"
+    method="post">
+
+    <?py-class
+    email = None
+    ?>
+
+    <py:ready>
+        <?py
+        if self.email is None:
+            self.visible = False
+        ?>
+    </py:ready>
+
+    <p>${view_translations("unsubscribed_by_mistake")}</p>
+
+    <input type="submit" value="${view_translations("resubscribe")}"/>
+    <input type="hidden" name="action" value="resubscribe"/>
+
+</form>
+
