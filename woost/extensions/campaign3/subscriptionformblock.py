@@ -3,7 +3,8 @@
 .. moduleauthor:: Jordi Fernández <jordi.fernandez@whads.com>
 """
 from cocktail import schema
-from woost.extensions.blocks.block import Block
+from woost.models import Block
+
 from .campaignmonitorlist import CampaignMonitorList
 
 
